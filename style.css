@@ -9,7 +9,7 @@ h1{
 .orange-color{
     color: forestgreen;
 }
-section{
+.flexible{
     display: flex;
     margin: auto;
 }
@@ -42,4 +42,24 @@ section{
 }
 .two{
     padding-right: 150px;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    margin: 5%;
+    padding: 30px;
+    width: 40%;
+    border-radius: 5px;
+    border-left: 6px solid blue;
+}
+.experience-area{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: top-left;
+}
+#baby-web-developer{
+    border-left: 6px solid red;
+}
+footer p{
+    text-align: center;
+    text-decoration: gainsboro;
 }
